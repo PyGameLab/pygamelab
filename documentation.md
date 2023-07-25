@@ -129,7 +129,7 @@ unicode.init()
 </br>
 
 ## 8. Constant variables usage
-- Get the constants: `from PyGameLab import locals`
+- Get the constants: `from PyGameLab import constants`
 </br>
 The constants writed there, are to use the `alignments` and `mouse_buttons` on other parts of code.
 </br>
@@ -159,3 +159,39 @@ pygame.quit()
 
 ## 10. Displaying text on screen
 - Get the Window and Text class: `from PyGameLab import Window, Text`
+</br>
+
+- Display text:
+  - Structure:
+    ```Python
+    Text.display(screen, text, position, color, font, size, alignment)
+    ```
+  </br>
+  
+  - Usage:
+    - `screen` is a variable name of type Window
+    - `text` is a string. The text that will be showed on screen
+    - `position` tupple. Structure: `(x, y)`
+    - `color` is the rgba color that the text will have
+    - `font` the font of the text
+    - `size` the size of the text
+    - `alignment` the alignment of the text. Tupple. Structure: `(horizontal, vertical)`. Try using the constants variables.
+ </br>
+ 
+  - Eg:
+    ```Python
+    from PyGameLab import Window, Text
+
+    screen = Window((100, 100), "Text test", (255, 255, 255))
+    text = Text.display(screen, "Hello, World", (50, 50), (0, 0, 0, 255), None, 10, constants.MIDDLECENTER)
+
+    while screen.running:
+      screen.update()
+      text = Text.display(screen, "Hello, World", (50, 50), (0, 0, 0, 255), None, 10, constants.MIDDLECENTER)
+    ```
+  </br>
+  
+- Delete text:
+    - Structure:
+      ```Python
+      
