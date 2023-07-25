@@ -54,3 +54,7 @@ For more information, documentation, and examples, visit the [PyGameLab GitHub d
 ## License
 This project is licensed under the MIT License - see the [LICENCE](LICENCE) file for details.
 
+## Changelog
+Actual version: 1.1.0
+View the full changelog at the [changelog](changelog.md) file for more details.
+
