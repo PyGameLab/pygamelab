@@ -194,5 +194,6 @@ pygame.quit()
 - Delete text:
     - Structure:
       ```Python
-      Text.delete(
-      
+      Text.delete(<screen>, <Text_type_variable>)
+      ```
+    - The text will disappear.
