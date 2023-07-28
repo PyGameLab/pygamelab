@@ -48,13 +48,13 @@ while window.running:
 pygame.quit()
 ```
 
-For more information, documentation, and examples, visit the [PyGameLab GitHub directory](documentation.md).
+For more information, documentation, and examples, visit the [PyGameLab GitHub directory](https://github.com/PyGameLab/pygamelab/).
 
 
 ## License
 This project is licensed under the MIT License - see the [LICENCE](LICENCE) file for details.
 
 ## Changelog
-Actual version: 1.1.0
+Latest version: 1.0.2-a1
 View the full changelog at the [changelog](changelog.md) file for more details.
 
