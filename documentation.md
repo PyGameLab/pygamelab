@@ -194,4 +194,5 @@ pygame.quit()
 - Delete text:
     - Structure:
       ```Python
+      Text.delete(
       
